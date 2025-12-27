@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sudo ufw allow 21116 && docker-compose up && sudo ufw deny 21116
+
